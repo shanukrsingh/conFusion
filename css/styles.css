@@ -8,15 +8,16 @@
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
+    align-content: center;
     /* background-color: #ced19e; */
-
+ 
 
 }
 
 .footer{
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
-    background-color: #b4dbbc;
+    background-color: #bd9ef1;
 }
 
 .jumbotron{
@@ -31,4 +32,23 @@
     margin: 0px;
     font-size: 80%;
     color: #a01111;
+}
+
+@media screen and (min-width:600px) {
+    
+    .abody{
+        padding: 0px 100px 0px 100px;
+    }
+    .row-b{
+        margin-left: auto;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    
+    .row-b{
+        margin: 0px auto;
+    }
+    
 }
