@@ -52,3 +52,11 @@
     }
     
 }
+
+.navbar-dark{
+    background-color: #512dab;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+}
